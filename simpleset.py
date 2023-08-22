@@ -1,3 +1,4 @@
+#유틸리티 함수
 from functools import *
 
 def intersect(*ar):
