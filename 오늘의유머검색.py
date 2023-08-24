@@ -12,7 +12,7 @@ hdr = {'User-agent':'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) Appl
 
 f = open("c:\\work\\todayhumor.txt", "wt", encoding="utf-8")
 
-#웹사이트마다 다르므로 주소를 보고 판단해야 함
+#웹사이트마다 다르므로 주소를 보고 판단해야 함(0,1)
 for n in range(1,6):
         #오늘의 유머 베스트 오브 베스트 게시판
         data ='https://www.todayhumor.co.kr/board/list.php?table=bestofbest&page=' + str(n)
